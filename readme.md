@@ -1,7 +1,7 @@
 # Customer Service Agent with AutoGen (Console)
 
 ## Overview
-The Customer Service Agent with AutoGen project implements an intelligent customer service system using Azure OpenAI LLM (Large Language Model) & LRM (Large Reasoning Model) models and fuzzy matching to handle customer queries. It features two agents: a General Agent for common inquiries and a Senior Agent for escalated or complex issues, both leveraging CSV-based knowledge bases. The system includes a group chat simulation, customizable configurations, and predefined test scenarios to validate functionality. It is designed to automate customer service efficiently while ensuring proper escalation for sensitive or complex topics.
+The Customer Service Agent with [AutoGen](https://github.com/microsoft/autogen) (Console) project implements an intelligent customer service system using [Azure OpenAI LLM](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview) (Large Language Model) & LRM (Large Reasoning Model) models and fuzzy matching to handle customer queries. It features two agents: a General Agent for common inquiries and a Senior Agent for escalated or complex issues, both leveraging CSV-based knowledge bases. The system includes a group chat simulation, customizable configurations, and predefined test scenarios to validate functionality. It is designed to automate customer service efficiently while ensuring proper escalation for sensitive or complex topics.
 
 This project implements a customer service agent system using AutoGen. It consists of two agents:
 1. **General Agent**: Handles common customer queries using a general knowledge base. It is powered by the GPT-4o model from Azure OpenAI Service.
